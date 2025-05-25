@@ -22,5 +22,4 @@ public class ProductCategory {
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "category")
     private List<Product> products;
-//    private Set<Product> products;
 }
